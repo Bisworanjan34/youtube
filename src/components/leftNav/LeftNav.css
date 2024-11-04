@@ -1,0 +1,10 @@
+.side-nav{
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+    /* z-index: 10; */
+  }
+  
+  .side-nav-sub .rounded-l:hover{
+      background-color: black;
+      color: white;
+  }

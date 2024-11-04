@@ -1,0 +1,28 @@
+.home-owner{
+    /* font-family: "Bebas Neue", sans-serif; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+/* ------------------------- */
+
+@media screen and (max-width:660px){
+    .section-home{
+        flex-direction: column;
+    }
+    .section-info{
+        flex-direction: column;
+        margin-top: 13.3rem;
+
+    }
+}
+@media screen and (max-width:964px){
+    .details-page{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .video{
+        height: 100px;
+    }
+}
